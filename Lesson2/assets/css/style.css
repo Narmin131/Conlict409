@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h4{
+    color: rgb(63, 63, 35);
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* class selector */
+.myDiv1{
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+}
+
+
+.myDiv2{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(10, 48, 47);
+}
+/* id selector */
+#myDiv3{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(62, 91, 76);
+}
+
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
