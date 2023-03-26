@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    width: 100%;
+    height: 10vh;
+    background-color: blue;
+    /* Header fixed */
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2; */
+}
+
+.hero-section{
+    width: 100%;
+    height: 120vh;
+    background-color: brown;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+    position: relative;
+}
+
+.main{
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(26, 32, 50);
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    right: 50px;
+    top: 70px;
+}
+
+.sticky-header{
+    width: 100%;
+    height: 12vh;
+    background-color: cadetblue;
+    /* Header sticky */
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}

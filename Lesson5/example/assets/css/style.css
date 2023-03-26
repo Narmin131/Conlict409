@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 14vh;
+    background-color: bisque;
+    display: flex;
+}
+
+.logo {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* transition */
+
+ul {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul li {
+    list-style-type: none;
+    transition: all .3s ease-in;
+    position: relative;
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+ul li:hover::after{
+    /* opacity: 1;
+    visibility: visible; */
+    width: 100%;
+}
+
+ul li::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #12323d;
+    bottom: -3px;
+    left: 0;
+    /* opacity: 0;
+    visibility: none; */
+    transition: all .4s ease-in;
+}
+
+ul li:hover {
+    color: #00AEEF;
+}
+
+.btnDiv {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnDiv button {
+    background-color: #00AEEF;
+    color: #fff;
+    border: 3px solid #00AEEF;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+
+.btnDiv button:hover{
+    color: #00AEEF;
+    background-color: #fff;
+    border: 3px solid #00AEEF;
+}
+
+/* em, rem */
+
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/bg_3.jpg.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.hero nav{
+    width: 100%;
+    height: 12vh;
+    background-color: transparent;
+}
