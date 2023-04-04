@@ -1,0 +1,65 @@
+
+footer{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(193, 175, 151);
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.first{
+    width: 18%;
+    height: 100%;
+}
+
+ul{
+    width: 18%;
+    height: 100%;
+}
+
+li{
+    transition: all .3s ease;
+}
+ul li:hover{
+    color: red;
+    cursor: pointer;
+    transform: translateX(10px);
+}
+
+
+h1 {
+   font-weight: bold;
+   margin-bottom: 10px; 
+}
+
+.last{
+    width: 15%;
+    height: 100%;
+}
+
+.myDiv{
+    width: 260px;
+    height: 260px;
+    background-color: bisque;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: auto; */
+    overflow: hidden;
+}
+
+.myDiv img:hover{
+  transform: scale(1.4);
+  /* filter: grayscale(100%); */
+  /* filter: blur(2px); */
+}
+
+.myDiv img{
+    width: 100%;
+    height: 100%;
+    transition: all .4s ease;
+}
+
+/* scale */
+/* rotate */
+/* translate */
