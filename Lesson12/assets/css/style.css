@@ -1,0 +1,36 @@
+span::after {
+    content: '*';
+}
+
+.myDiv{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+}
+
+.myDiv::after{
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url("../img/pexels-yuliia-tretynychenko-12570617.jpg");
+    background-position: center;
+    background-size: cover;
+
+
+    /* position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 3; */
+}
+
+
